@@ -1,0 +1,45 @@
+body{
+  margin:  0px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #F8FAFC;
+}
+
+h1, h2, h3, p{
+  margin: 0;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+
+
+a{
+  color: #7C3AED;
+}
+a:hover{
+  color: #F97316;
+  text-decoration-style: dotted;
+}
+
+::selection {
+    background-color: #D5A6F2; 
+    color: white;
+    text-shadow: 2px 0px 2px #b87bdd;
+}
+
+.area{
+    max-width: 1200px;
+        margin: 0 auto;
+          padding: 60px 0px;
+}
+
+@media (max-width:800px){
+.area{
+  max-width: 800px
+}
+}

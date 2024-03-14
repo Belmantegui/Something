@@ -1,0 +1,277 @@
+.gradiente-pontos{
+    width: auto;
+    border-bottom: 4px solid white;
+    background-image: linear-gradient(to bottom right, #F0ECFB, #F8F4F3);
+}
+
+
+.ponto-titulo{
+font-size: 2.5rem;
+margin-bottom: 45px;
+margin-left: 15px;
+}
+
+
+.pontos-sombra{
+      border-top: 4px solid white;
+    box-shadow: 0px 0px 5px rgba(241, 241, 241, 0.5);
+}
+
+.ponto-lista{
+font-size: 1.2rem;
+margin-left: 25px;
+}
+.lista-item{
+margin-bottom: 20px;
+margin-left: 35px;
+}
+.lista-item a{
+  font-weight: bold;
+}
+
+.procurando-conteudo{
+position: relative;
+}
+
+.lista-item::before{
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url("../img/icone4.svg") no-repeat center;
+  position: absolute;
+  left: 32px;
+}
+
+/* experiencia */
+.experiencia-header{
+  display: flex;
+   justify-content: space-between;
+     align-items: center;
+     margin-bottom: 20px;
+
+}
+
+.empresa-titulo{
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #4C1D95;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin-left: 44px;
+}
+.empresa-titulo::before{
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url("../img/pointer.svg") no-repeat center;
+  position: absolute;
+  left: -28px;
+
+}
+
+.data{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: #7C3AED;
+  margin-right: 16px;
+}
+
+.tabela{
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  padding: 40px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cargo{
+font-weight: 400;
+margin-bottom: 20px;
+}
+
+.tecnologias{
+  background-color: #0F172A;
+  color: white ;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.frase{
+  font-weight: 400;
+margin-top: 20px;
+font-size: 1.2rem;
+margin-left: 15px;
+}
+
+/* code for fun */
+.info-titulo{
+  margin-left: 15px;
+font-size: 1.3rem;
+}
+
+
+.code-ex{
+  margin-left: 15px;
+  display: flex;
+  gap: 20px 45px;
+  margin-top: 25px;
+}
+
+.code-ex-item{
+font-size: 1.2rem;
+}
+
+.list-skill-tecs{
+  width: 1100px;
+  font-size: 1.2rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+    gap: 15px 20px;
+
+      /* position: relative; */
+}
+
+.item-skill-tecs{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px 5px;
+
+  padding: 20px 30px;
+  background-color: #EDE9FE;
+}
+
+.item-skill-tecs::before{
+  content: "";
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url("../img/icone4.svg") no-repeat center;
+
+}
+
+@media (max-width:800px) {
+  .ponto-titulo{
+font-size: 2.5rem;
+ text-align: center;
+}
+
+.ponto-lista{
+  margin-left: 0px;
+ text-align: center;
+}
+
+.lista-item::before{
+  position: absolute;
+  left: 205px;
+}
+.list-skill-tecs{
+  width: 700px;
+     justify-content: center;
+}
+
+.skills-conteudo{
+margin-left: 20px;
+}
+.list-skill-tecs{
+    font-size: 1rem;
+}
+.item-skill-tecs{
+      padding: 10px 20px;
+}
+
+}
+
+
+@media (max-width:430px) {
+
+  .lista-item::before{
+  left: 25px;
+}
+
+.experiencia-header{
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+.empresa-titulo{
+      margin-left: 13px;
+}
+.tecnologias{
+    font-size: 1rem;
+}
+.tabela{
+  padding: 20px 20px;
+}
+.experiencia-conteudo{
+padding-bottom: 0px;
+}
+.code-ex{
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.list-skill-tecs{
+  font-size: 0.9rem;
+  margin-right: 20px;
+  width: 365px;
+}
+
+.skills-conteudo{
+margin-left: 25px;
+margin-right: 20px;
+}
+}
+
+@media (max-width:412px) {
+
+  .lista-item::before{
+  left: 25px;
+}
+
+.experiencia-header{
+  flex-direction: column;
+  justify-content: start;
+  gap: 10px;
+}
+.empresa-titulo{
+      margin-left: 13px;
+}
+.tecnologias{
+    font-size: 1rem;
+}
+.tabela{
+  padding: 20px 20px;
+}
+.experiencia-conteudo{
+padding-bottom: 0px;
+}
+.code-ex{
+  margin-bottom: 20px;
+}
+.list-skill-tecs{
+  margin-right: 20px;
+  width: 335px;
+}
+
+.skills-conteudo{
+margin-left: 20px;
+margin-right: 20px;
+}
+}
+
+@media (max-width:375px) {
+.ponto-lista{
+  font-size: 1rem;
+}
+
+.lista-item::before{
+  left: 40px;
+}
+}
